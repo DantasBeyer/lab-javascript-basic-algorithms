@@ -23,3 +23,23 @@ if (driver.length < navigator.length){
 
 
 // Iteration 3: Loops
+
+const driversName = "name";
+console.log('j o h n'.toUpperCase());
+
+const navigatorsName = "name";
+console.log('m a t h e o'.toUpperCase());
+
+let driversName1 = "john";
+let navigatorsName2 = "matheo";
+
+if (driversName1 < navigatorsName2) {
+  console.log("The driver's name goes first.");
+   } 
+  
+  if (driversName1 > navigatorsName2){
+    console.log("Yo, the navigator goes first definitely.");
+  }
+   if (driversName1 == navigatorsName2){
+    console.log("What?! You both have the same name?");
+  }
