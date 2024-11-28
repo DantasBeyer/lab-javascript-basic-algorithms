@@ -20,7 +20,7 @@ if (driver.length < navigator.length){
   console.log("It seems that the navigator has the longest name, it has",navigator.length,"characters.");
   } if (driver.length == navigator.length){
   console.log("Wow, you both have equally long names,",driver.length,"characters!" )
-
+  }
 
 // Iteration 3: Loops
 
