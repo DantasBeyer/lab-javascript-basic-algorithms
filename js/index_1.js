@@ -17,7 +17,14 @@ if (hacker1.length !== hacker2.length) {
   );
 }
 
-// Interaction 3.1 : Loops
+// Interaction 3 : Loops
+//3.1
 driver = "john";
-const formatName = driver.toLocaleUpperCase().split("").join("");
+const formatName = driver.toLocaleUpperCase().split("").join('');
 console.log(formatName);
+
+//3.2
+const reverse = driver.split("").reverse().join('');
+console.log(reverse);
+
+
