@@ -18,13 +18,28 @@ if (hacker1.length !== hacker2.length) {
 }
 
 // Interaction 3 : Loops
-//3.1
+
+//3.1 solution 1
 driver = "john";
-const formatName = driver.toLocaleUpperCase().split("").join('');
-console.log(formatName);
+/* const formatName = driver.toLocaleUpperCase().split("").join(" ");
+console.log(formatName);  */
+
+// solution 2
+let separated = " ";
+for (let i = 0; i < driver.length; i++) {
+  separated += driver[i].toLocaleUpperCase() + " ";
+}
+console.log(separated.trim());
 
 //3.2
-const reverse = driver.split("").reverse().join('');
+const reverse = driver.split("").reverse().join("");
 console.log(reverse);
 
+let reversed = "";
+for (let i = driver.length - 1; i >= 0; i--) {
+  reversed += driver[i];
+}
+console.log(reversed);
 
+//3.3
+navigator = "matheo";
